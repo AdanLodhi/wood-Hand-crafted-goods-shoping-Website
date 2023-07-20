@@ -1,0 +1,83 @@
+/* ============== Footer css ================ */
+.Footer {
+    width: auto;
+    height: 80vh;
+    margin: auto;
+    padding: 60px 40px;
+    color: whitesmoke;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+  .foot-left-container,
+  .foot-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Barlow, sans-serif;
+    gap: 2rem;
+  }
+  .foot-right-container {
+    align-items: flex-start;
+  }
+  .foot-left-container-item3 {
+    display: flex;
+    gap: 1rem;
+    color: #f90;
+  }
+  .foot-left-container-item4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .foot-left-container-page4:hover,
+  .foot-left-container-page3:hover,
+  .foot-left-container-page2:hover,
+  .foot-left-container-page1:hover {
+    color: #f90;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  .foot-lft1:hover,
+  .foot-lft2:hover,
+  .foot-lft3:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  .foot-span {
+    color: #f90;
+  }
+  .foot-span:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  .email-field {
+    padding: 1rem;
+    background-color: transparent;
+    width: 30vw;
+    height: 8vh;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px #f90;
+  }
+  input::placeholder {
+    font-size: 1.2rem;
+  }
+  .submit-btn {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+  .submit-btn:hover {
+    color: #f90;
+    transition: 0.5s ease-in-out;
+  }
+  .copyright {
+    padding-top: 7rem;
+  }

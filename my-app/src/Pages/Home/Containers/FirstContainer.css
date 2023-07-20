@@ -1,0 +1,20 @@
+.First-container-image1{
+     width: 23rem;
+    height: 15rem;  
+    
+}
+.First-container-image2{
+    width: 50%;
+    height: 80%;
+}
+.First-container-image3{
+    width: 100%;
+    height: 18rem;
+}
+.First-container-image4{
+     width: 100%;
+    height: 18rem; 
+    object-fit: cover; 
+    
+
+}
