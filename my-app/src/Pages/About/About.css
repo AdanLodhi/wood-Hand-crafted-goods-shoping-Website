@@ -1,0 +1,242 @@
+.banner-title{
+padding-top: 100px;
+padding-bottom: 30px;
+text-align: center;
+box-sizing: border-box;
+margin: .67em 0;
+color: #202020;
+font-family: Barlow, sans-serif;
+font-weight: 400;
+line-height: 1em;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 80px;
+transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+transform-style: preserve-3d;
+}
+.banner-para {
+    -webkit-text-size-adjust: 100%;
+    padding-bottom: 100px;
+    font-size: 22px;
+    box-sizing: border-box;
+    color: #505050;
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.about-us-top-wrapper{
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    grid-column-gap: 130px;
+    justify-content: space-between;
+    display: flex;    
+}
+
+.top-left-wrap{
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    width: 57%;
+    grid-row-gap: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+.head-twnty {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Barlow, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #202020;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.para-twnty{
+    -webkit-text-size-adjust: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    color: #505050;
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 1.5em;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.about-img{
+    -webkit-text-size-adjust: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    width: 45%;
+    object-fit: cover;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.about-us-right-wrapper{
+    -webkit-text-size-adjust: 100%;
+    padding-left: 30px;
+    padding-top: 40px;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    width: 50%;
+    grid-row-gap: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.about-us-number-wrapper{
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    display: flex;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.text-block{
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    box-sizing: border-box;
+    font-family: Barlow, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.decorate-your-day {
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    position: relative;
+    padding-top: 0;
+}
+
+.dec-head {
+    -webkit-text-size-adjust: 100%;
+    padding-left: 60px;
+    padding-top: 90px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    font-family: Barlow, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #202020;
+    text-align: center;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.dec-para{
+    -webkit-text-size-adjust: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    color: #505050;
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 1.5em;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.banner-button{
+    -webkit-text-size-adjust: 100%;
+    color: #202020;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin-top: 25px;
+    display: flex;
+}
+
+.primary-button{
+    margin-left: 600px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .3s;
+    color: #202020;
+    text-align: center;
+    letter-spacing: .5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #202020;
+    border-radius: 50px;
+    align-items: center;
+    padding: 18px 25px;
+    font-family: Barlow, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    transition-duration: .4s;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
