@@ -1,17 +1,18 @@
-.banner-title{
-padding-top: 100px;
-padding-bottom: 30px;
-text-align: center;
-box-sizing: border-box;
-margin: .67em 0;
-color: #202020;
-font-family: Barlow, sans-serif;
-font-weight: 400;
-line-height: 1em;
-margin-top: 0;
-margin-bottom: 0;
-font-size: 80px;
+.banner-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: .67em 0;
+    color: #202020;
+    font-family: Barlow, sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
 }
+
 .banner-para {
 
     padding-bottom: 100px;
@@ -27,8 +28,8 @@ font-size: 80px;
     opacity: 1;
 }
 
-.about-us-top-wrapper{
- 
+.about-us-top-wrapper {
+
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -37,10 +38,10 @@ font-size: 80px;
     box-sizing: border-box;
     grid-column-gap: 130px;
     justify-content: space-between;
-    display: flex;    
+    display: flex;
 }
 
-.top-left-wrap{
+.top-left-wrap {
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -66,7 +67,8 @@ font-size: 80px;
     margin-bottom: 0;
     color: #202020;
 }
-.para-twnty{
+
+.para-twnty {
     -webkit-text-size-adjust: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -80,7 +82,7 @@ font-size: 80px;
     line-height: 1.5em;
 }
 
-.about-img{
+.about-img {
     padding-top: 30px;
     padding-left: 20px;
     color: #202020;
@@ -97,7 +99,7 @@ font-size: 80px;
     object-fit: cover;
 }
 
-.about-us-right-wrapper{
+.about-us-right-wrapper {
     padding-left: 30px;
     padding-top: 40px;
     color: #202020;
@@ -112,7 +114,7 @@ font-size: 80px;
     display: flex;
 }
 
-.about-us-number-wrapper{
+.about-us-number-wrapper {
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -122,8 +124,9 @@ font-size: 80px;
     grid-row-gap: 20px;
     flex-direction: column;
     display: flex;
-    }
-.text-block{
+}
+
+.text-block {
     color: #202020;
     box-sizing: border-box;
     font-family: Barlow, sans-serif;
@@ -161,7 +164,7 @@ font-size: 80px;
     text-align: center;
 }
 
-.dec-para{
+.dec-para {
     padding-top: 20px;
     padding-bottom: 30px;
     box-sizing: border-box;
@@ -175,7 +178,7 @@ font-size: 80px;
     line-height: 1.5em;
 }
 
-.banner-button{
+.banner-button {
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -186,7 +189,7 @@ font-size: 80px;
     display: flex;
 }
 
-.primary-button{
+.primary-button {
     margin-left: 600px;
     box-sizing: border-box;
     text-transform: uppercase;

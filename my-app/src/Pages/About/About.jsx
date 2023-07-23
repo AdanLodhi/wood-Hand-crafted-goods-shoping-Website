@@ -1,7 +1,7 @@
-import React from "react";
-import "./About.css";
-import SecondLastContainer from "./Containers/SecondLastContainer"; /* Error with the direction */
-import LastContainer from "./Containers/LastContainer"; /* Error with the direction */
+import React from 'react'
+import './About.css'
+import SecondLastContainer from './Containers/SecondLastContainer' /* Error with the direction */
+import LastContainer from './Containers/LastContainer'  /* Error with the direction */
 
 function About() {
   return (
@@ -70,9 +70,10 @@ function About() {
       <>
         <SecondLastContainer />
         <LastContainer />
-      </>
-    </>
-  );
+      </></>
+  
+
+  )
 }
 
 export default About;
