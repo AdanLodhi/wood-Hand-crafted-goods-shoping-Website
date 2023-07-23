@@ -12,7 +12,7 @@ const Shop = () => {
             alt="..."
           ></img>
         </div>
-        <h1 className="fw-bolder p-3">Shop</h1>
+        <h1 className="fw-bolder p-4">Shop</h1>
         <p className="fw-bolder p-3">
           From textiles to ceramics to woodworking, we've got everything you
           <br />
