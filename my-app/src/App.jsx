@@ -1,4 +1,5 @@
 import Foot from "./Components/Footer/Foot"
+import "./App.css"
 import Navbar from "./Components/Header/Navbar"
 import About from "./Pages/About/About"
 import Cart from "./Pages/Cart/Cart"
