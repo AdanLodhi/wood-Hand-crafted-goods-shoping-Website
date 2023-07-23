@@ -20,7 +20,7 @@ const Shop = () => {
         </p>
       </div>
       <div className="container-text-center">
-        <div className="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+        <div className="row row-cols-3 row-cols-lg-8 g-2 g-lg-3">
           {/*=== card 1 === */}
           <div className="col">
             <div className="p-5 ">
