@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import SecondLastContainer from './Containers/SecondLastContainer' /* Error with the direction */
+import SecondLastContainer from "./Containers/SecondLastContainer"; /* Error with the direction */
 import LastContainer from './Containers/LastContainer'  /* Error with the direction */
 
 function About() {
@@ -51,7 +51,7 @@ function About() {
         <SecondLastContainer />
         <LastContainer />
       </></>
-  
+
 
   )
 }
