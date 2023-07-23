@@ -11,11 +11,9 @@ line-height: 1em;
 margin-top: 0;
 margin-bottom: 0;
 font-size: 80px;
-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-transform-style: preserve-3d;
 }
 .banner-para {
-    -webkit-text-size-adjust: 100%;
+
     padding-bottom: 100px;
     font-size: 22px;
     box-sizing: border-box;
@@ -27,12 +25,10 @@ transform-style: preserve-3d;
     margin-top: 0;
     margin-bottom: 0;
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .about-us-top-wrapper{
-    -webkit-text-size-adjust: 100%;
+ 
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -45,7 +41,6 @@ transform-style: preserve-3d;
 }
 
 .top-left-wrap{
-    -webkit-text-size-adjust: 100%;
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -61,7 +56,6 @@ transform-style: preserve-3d;
 .head-twnty {
     padding-left: 20px;
     padding-right: 20px;
-    -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     text-align: left;
     font-family: Barlow, sans-serif;
@@ -71,9 +65,6 @@ transform-style: preserve-3d;
     margin-top: 0;
     margin-bottom: 0;
     color: #202020;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 .para-twnty{
     -webkit-text-size-adjust: 100%;
@@ -87,13 +78,9 @@ transform-style: preserve-3d;
     margin-bottom: 0;
     font-size: 22px;
     line-height: 1.5em;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .about-img{
-    -webkit-text-size-adjust: 100%;
     padding-top: 30px;
     padding-left: 20px;
     color: #202020;
@@ -108,13 +95,9 @@ transform-style: preserve-3d;
     display: inline-block;
     width: 45%;
     object-fit: cover;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .about-us-right-wrapper{
-    -webkit-text-size-adjust: 100%;
     padding-left: 30px;
     padding-top: 40px;
     color: #202020;
@@ -130,7 +113,6 @@ transform-style: preserve-3d;
 }
 
 .about-us-number-wrapper{
-    -webkit-text-size-adjust: 100%;
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -140,12 +122,8 @@ transform-style: preserve-3d;
     grid-row-gap: 20px;
     flex-direction: column;
     display: flex;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
-}
+    }
 .text-block{
-    -webkit-text-size-adjust: 100%;
     color: #202020;
     box-sizing: border-box;
     font-family: Barlow, sans-serif;
@@ -155,7 +133,7 @@ transform-style: preserve-3d;
 }
 
 .decorate-your-day {
-    -webkit-text-size-adjust: 100%;
+
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -168,7 +146,7 @@ transform-style: preserve-3d;
 }
 
 .dec-head {
-    -webkit-text-size-adjust: 100%;
+
     padding-left: 60px;
     padding-top: 90px;
     padding-right: 60px;
@@ -181,13 +159,9 @@ transform-style: preserve-3d;
     margin-bottom: 0;
     color: #202020;
     text-align: center;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .dec-para{
-    -webkit-text-size-adjust: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
     box-sizing: border-box;
@@ -199,13 +173,9 @@ transform-style: preserve-3d;
     margin-bottom: 0;
     font-size: 22px;
     line-height: 1.5em;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
 
 .banner-button{
-    -webkit-text-size-adjust: 100%;
     color: #202020;
     font-family: Manrope, sans-serif;
     font-size: 16px;
@@ -218,7 +188,6 @@ transform-style: preserve-3d;
 
 .primary-button{
     margin-left: 600px;
-    -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     text-transform: uppercase;
     text-decoration: none;
@@ -236,7 +205,4 @@ transform-style: preserve-3d;
     font-weight: 500;
     line-height: 1.2em;
     transition-duration: .4s;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
 }
