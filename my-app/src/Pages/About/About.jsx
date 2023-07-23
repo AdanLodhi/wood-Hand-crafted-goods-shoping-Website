@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import SecondLastContainer from "./Containers/SecondLastContainer"; /* Error with the direction */
 import LastContainer from './Containers/LastContainer'  /* Error with the direction */
+import {Link } from "react-router-dom";
 
 function About() {
   return (
@@ -39,13 +40,13 @@ function About() {
         <h2 className="dec-head">Decorate Your Day With Our <br /> Handcrafts</h2>
         <p className='dec-para'>We believe in the power of handmade goods to add a special touch to your life and make <br /> your day a little bit brighter. Browse our product today and discover the perfect <br />handcrafted item to decorate your day!</p>
         <div className="banner-button">
-          <a className='primary-button' href='./Home.jsx'>View More</a>
+        <Link to="/"><button className='primary-button'>
+              View more
+            </button>
+            </Link>
         </div>
       </div>
 
-      <div className="bg-light">
-
-      </div>
 
     </div><>
         <SecondLastContainer />

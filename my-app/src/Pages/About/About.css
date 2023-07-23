@@ -178,17 +178,6 @@
     line-height: 1.5em;
 }
 
-.banner-button {
-    color: #202020;
-    font-family: Manrope, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5em;
-    box-sizing: border-box;
-    margin-top: 25px;
-    display: flex;
-}
-
 .primary-button {
     margin-left: 600px;
     box-sizing: border-box;
