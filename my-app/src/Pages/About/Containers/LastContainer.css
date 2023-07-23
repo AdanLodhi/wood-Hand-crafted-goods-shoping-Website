@@ -1,0 +1,40 @@
+/* =========Home page Last-container css ================== */
+.last-container {
+    padding: 2rem;
+  }
+  .home-last-main-sec-name {
+    text-align: center;
+    padding: 2rem;
+  }
+  .home-last-main-sec-Testimonial {
+    color: #f90;
+  }
+  .home-last-container-flex-container {
+    display: flex;
+    padding: 1.2rem;
+  }
+  .home-last-container-flex-container-comment-container {
+    margin: 2rem;
+    padding: 2rem;
+    word-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .home-last-container-flex-container-comment-container-button {
+    background-color: transparent;
+    border-radius: 48%;
+    width: 5vw;
+    height: 12vh;
+    font-size: 2rem;
+    border: 2px solid black;
+  }
+  .home-last-container-flex-container-comment-container-button-container {
+    gap: 2rem;
+    display: flex;
+  }
+  .home-last-container-flex-container-comment-container-button:hover {
+    background-color: #f90;
+    transition: 0.5s ease-in-out;
+  }
+  
