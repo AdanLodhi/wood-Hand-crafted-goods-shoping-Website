@@ -12,7 +12,7 @@ const Foot = () => {
     return (
       <footer>
         <div className="  Footer container-fluid">
-          <div className="foot-left-container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
+          <div className="foot-left-container" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
             <div className="foot-left-container-item1">
               <h5>HANDCRAFTS</h5>
             </div>
@@ -33,7 +33,7 @@ const Foot = () => {
               <h5 className="foot-left-container-page4"> Shop  </h5>
             </div>
           </div>
-          <div className="foot-right-container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
+          <div className="foot-right-container" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
             <div className="foot-right-container-item1">
               <h3>Subscribe to newsletter</h3>
             </div>
