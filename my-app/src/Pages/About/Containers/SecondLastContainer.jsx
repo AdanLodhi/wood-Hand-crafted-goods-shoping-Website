@@ -3,7 +3,7 @@ import './SecondLastContainer.css'
 const SecondLastContainer = () => {
     return (
         <div className="second-last-container">
-            <div className=" d-flex bg-dark p-4  second-last-container-sub-container-1">
+            <div className=" d-flex bg-dark p-4  second-last-container-sub-container-1" data-aos="fade-left">
                 <div className=" pe-5 d-flex flex-column justify-content-around">
                     <h5 className="text-warning">IT'S MATTER TO DO WHAT YOU LOVE</h5>
                     <h1 className="text-light " >We Feel Passion to What We Do</h1>
@@ -15,7 +15,7 @@ const SecondLastContainer = () => {
                     {/* This  div is just for an image to set in its background. No further code is written in this div */}
                 </div>
             </div>
-            <div className="second-last-container-sub-container-2 ">
+            <div className="second-last-container-sub-container-2 "  data-aos="fade-right">
                 <div className="" >
                     <div className=" m-3 pe-5  ">
                         <h5 className="text-warning">TEAM</h5>
