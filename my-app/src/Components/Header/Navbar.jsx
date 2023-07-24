@@ -39,7 +39,7 @@ const Navbar = () => {
                 </li>
               </ul>
               <li className="nav-item" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
-                  <Link className="nav-link text-white fs-5 " to="/cart">CART</Link>
+                  <Link className="nav-link text-white fs-5 "  data-bs-toggle="modal" data-bs-target="#exampleModal">CART</Link>
                 </li>
             </div>
           </div>

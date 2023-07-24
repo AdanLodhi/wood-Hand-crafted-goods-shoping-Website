@@ -1,43 +1,6 @@
 import React from "react";
 
-const products = [
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5794422f568a8f936d2_image-p-800.jpg",
-    title: "SOAP HOLDER",
-    price: "$ 15 USD",
-  },
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5b7ae24814cf512f714_image%202.jpg",
-    title: "WOODEN TEETH BRUSH",
-    price: "$ 12.99 USD",
-  },
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
-    title: "WOODEN SOAP BRUSH",
-    price: "$ 19.99 USD",
-  },
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/6446352581a0db410bdc62fd_Testimonials%20Img2-p-500.jpg",
-    title: "COTTON MAKEUP REMOVING PADS",
-    price: "$ 19.99 USD",
-  },
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
-    title: "WOODEN SOAP BRUSH",
-    price: "$ 19.99 USD",
-  },
-  {
-    imgSrc:
-      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
-    title: "WOODEN SOAP BRUSH",
-    price: "$ 19.99 USD",
-  },
-];
+
 
 const Shop = () => {
   return (
@@ -73,7 +36,7 @@ const Shop = () => {
                 <div className="card-body">
                   <h5 className="card-title text-warning">SOAP HOLDER</h5>
                   <p className="card-text fs-5 ">$ 15 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -95,7 +58,7 @@ const Shop = () => {
                     WOODEN TEETH BRUSH
                   </h5>
                   <p className="card-text fs-5 ">$ 12.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -115,7 +78,7 @@ const Shop = () => {
                 <div className="card-body">
                   <h5 className="card-title text-warning">WOODEN SOAP BRUSH</h5>
                   <p className="card-text fs-5 ">$ 19.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -137,7 +100,7 @@ const Shop = () => {
                     COTTON MAKE UP REMOVING PADS
                   </h5>
                   <p className="card-text fs-5 ">$ 13.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -160,7 +123,7 @@ const Shop = () => {
                     HANDCRAFTED WOODEN CUTTING BOARD
                   </h5>
                   <p className="card-text fs-5 ">$ 69.22 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -182,7 +145,7 @@ const Shop = () => {
                     INCREDIBLE COTTON TUNA
                   </h5>
                   <p className="card-text fs-5 ">$ 60.00 USD</p>
-                  <button type="button" className="btn btn-outline-warning">
+                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -191,6 +154,24 @@ const Shop = () => {
           </div>
         </div>
       </div>
+       {/* ======= code for modal start ======== */}
+       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel text-center "> Your Cart</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body text-bold">
+              Oops! Item Not Available
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-primary ">Continue To Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*========== code for modal end ========= */}
     </div>
   );
 };
