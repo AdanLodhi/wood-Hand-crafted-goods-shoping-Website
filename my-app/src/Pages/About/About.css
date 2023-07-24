@@ -181,7 +181,8 @@
 }
 
 .primary-button {
-    margin-left: 600px;
+    margin: auto;
+    display: flex;
     box-sizing: border-box;
     text-transform: uppercase;
     text-decoration: none;
