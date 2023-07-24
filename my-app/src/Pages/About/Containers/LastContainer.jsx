@@ -2,7 +2,7 @@ import './LastContainer.css'
 
 const LastContainer = () => {
   return (
-        <div className="last-container">
+        <div className="last-container" data-aos="zoom-in-up">
           <div className="home-last-main-sec-name">
             <h5 className="home-last-main-sec-Testimonial">TESTIMONIALS</h5>
             <h1>What Our Customers Say</h1>

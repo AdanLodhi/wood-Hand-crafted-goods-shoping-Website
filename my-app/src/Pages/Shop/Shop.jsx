@@ -1,29 +1,68 @@
 import React from "react";
 
+const products = [
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5794422f568a8f936d2_image-p-800.jpg",
+    title: "SOAP HOLDER",
+    price: "$ 15 USD",
+  },
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5b7ae24814cf512f714_image%202.jpg",
+    title: "WOODEN TEETH BRUSH",
+    price: "$ 12.99 USD",
+  },
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
+    title: "WOODEN SOAP BRUSH",
+    price: "$ 19.99 USD",
+  },
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/6446352581a0db410bdc62fd_Testimonials%20Img2-p-500.jpg",
+    title: "COTTON MAKEUP REMOVING PADS",
+    price: "$ 19.99 USD",
+  },
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
+    title: "WOODEN SOAP BRUSH",
+    price: "$ 19.99 USD",
+  },
+  {
+    imgSrc:
+      "https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg",
+    title: "WOODEN SOAP BRUSH",
+    price: "$ 19.99 USD",
+  },
+];
+
 const Shop = () => {
   return (
     <div>
       <div>
-        <div className="card" style={{ width: "80rem" }}>
+        <div className="card" style={{ width: "100%" }}>
           <img
             src="https://assets.website-files.com/64383cfe24c2e2d67e5b297b/644fae2ba47311864822e9de_img%201.webp"
-            style={{ height: "40rem", width: "50" }}
-            classame="card-img-top"
+            style={{ height: "40rem", width: "100%" }}
+            className="card-img-top"
             alt="..."
-          ></img>
+          />
         </div>
-        <h1 className="fw-bolder p-4">Shop</h1>
+        <h1 className="fw-bolder p-3">Shop</h1>
         <p className="fw-bolder p-3">
           From textiles to ceramics to woodworking, we've got everything you
           <br />
           need to start your own handcrafting journey.
         </p>
       </div>
-      <div class="container-text-center">
-        <div class="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+      <div className="container-text-center">
+        <div className="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
           {/*=== card 1 === */}
-          <div class="col">
-            <div class="p-5 ">
+          <div className="col">
+            <div className="p-5 ">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5794422f568a8f936d2_image-p-800.jpg"
@@ -42,8 +81,8 @@ const Shop = () => {
             </div>
           </div>
           {/*=== card 2 === */}
-          <div class="col">
-            <div class="p-5">
+          <div className="col">
+            <div className="p-5">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5b7ae24814cf512f714_image%202.jpg"
@@ -64,8 +103,8 @@ const Shop = () => {
             </div>
           </div>
           {/*=== card 3 === */}
-          <div class="col">
-            <div class="p-5">
+          <div className="col">
+            <div className="p-5">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/644fd5d5d017b2c58c5797ba_image%203-p-500.jpg"
@@ -84,8 +123,8 @@ const Shop = () => {
             </div>
           </div>
           {/*=== card 4 === */}
-          <div class="col">
-            <div class="p-5 ">
+          <div className="col">
+            <div className="p-5 ">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/6446352581a0db410bdc62fd_Testimonials%20Img2-p-500.jpg"
@@ -106,8 +145,8 @@ const Shop = () => {
             </div>
           </div>
           {/*=== card 5 === */}
-          <div class="col">
-            <div class="p-5 ">
+          <div className="col">
+            <div className="p-5 ">
               {" "}
               <div className="card" style={{ width: "18rem" }}>
                 <img
@@ -129,9 +168,8 @@ const Shop = () => {
             </div>
           </div>
           {/*=== card 6 === */}
-          <div class="col">
-            <div class="p-5 ">
-              {" "}
+          <div className="col">
+            <div className="p-5 ">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/644f9fb7a0033d2c691addcb_image-p-500.jpg"
