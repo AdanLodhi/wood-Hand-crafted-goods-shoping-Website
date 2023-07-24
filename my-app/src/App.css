@@ -1,1 +1,1 @@
-body { overflow-x:hidden; }
+body { overflow-x:hidden; min-width: 320px; min-height: 100vh;  }

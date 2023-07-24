@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const SecondLastContainer = () => {
     useEffect(() => {
         AOS.init();
-      }, [])
+    }, [])
     return (
         <div className="second-last-container">
             <div className=" d-flex bg-dark p-4  second-last-container-sub-container-1" >
@@ -23,7 +23,7 @@ const SecondLastContainer = () => {
                 </div>
             </div>
             <div className="second-last-container-sub-container-2 ">
-                <div className="" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800"> 
+                <div className="" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
                     <div className=" m-3 pe-5  ">
                         <h5 className="text-warning">TEAM</h5>
                         <br />
@@ -31,13 +31,13 @@ const SecondLastContainer = () => {
                         <br />
                         <div className="pe-5">
                             <p className="  text-light fs-5  pe-5"  >Our handcrafts team is made up of a group of talented and passionate individuals who share a love for creating beautiful and unique pieces. From woodworking to jewelry making to textile arts, our team members bring a diverse range of skills and expertise to the table.</p>
+                        </div>
+                        <br />
+                        <Link to={"/about"}> <button type="button" className="btn btn-outline-light rounded-pill fs-5">View  More</button></Link>
+                        <br />
                     </div>
-                    <br />
-                    <Link to={"/about"}> <button type="button" className="btn btn-outline-light rounded-pill fs-5">View  More</button></Link>
-                    <br />
                 </div>
             </div>
-        </div>
         </div >
     )
 }

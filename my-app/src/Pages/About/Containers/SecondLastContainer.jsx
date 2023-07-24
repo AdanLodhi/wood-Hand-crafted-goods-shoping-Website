@@ -15,7 +15,7 @@ const SecondLastContainer = () => {
                     {/* This  div is just for an image to set in its background. No further code is written in this div */}
                 </div>
             </div>
-            <div className="second-last-container-sub-container-2 "  data-aos="fade-right">
+            <div className="second-last-container-sub-container-2 " data-aos="fade-right">
                 <div className="" >
                     <div className=" m-3 pe-5  ">
                         <h5 className="text-warning">TEAM</h5>

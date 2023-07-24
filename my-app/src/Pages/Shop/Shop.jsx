@@ -65,7 +65,7 @@ const Shop = () => {
                     WOODEN TEETH BRUSH
                   </h5>
                   <p className="card-text fs-5 ">$ 12.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -85,7 +85,7 @@ const Shop = () => {
                 <div className="card-body">
                   <h5 className="card-title text-warning">WOODEN SOAP BRUSH</h5>
                   <p className="card-text fs-5 ">$ 19.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -107,7 +107,7 @@ const Shop = () => {
                     COTTON MAKE UP REMOVING PADS
                   </h5>
                   <p className="card-text fs-5 ">$ 13.99 USD</p>
-                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -130,7 +130,7 @@ const Shop = () => {
                     HANDCRAFTED WOODEN CUTTING BOARD
                   </h5>
                   <p className="card-text fs-5 ">$ 69.22 USD</p>
-                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -152,7 +152,7 @@ const Shop = () => {
                     INCREDIBLE COTTON TUNA
                   </h5>
                   <p className="card-text fs-5 ">$ 60.00 USD</p>
-                  <button type="button" className="btn btn-outline-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     ADD TO CART
                   </button>
                 </div>
@@ -161,8 +161,8 @@ const Shop = () => {
           </div>
         </div>
       </div>
-       {/* ======= code for modal start ======== */}
-       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      {/* ======= code for modal start ======== */}
+      <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">

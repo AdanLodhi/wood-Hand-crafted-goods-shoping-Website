@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <FirstContainer />
-      <SecondContainer/>
+      <SecondContainer />
       <MiddleContainer />
       <SecondLastContainer />
       <LastContainer />
