@@ -25,8 +25,22 @@ const Shop = () => {
               backgroundColor: "rgba(0, 0, 0, 0.7)",
             }}
           >
-            <h1 className="fw-bolder p-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">Shop</h1>
-        <p className="fw-bolder p-3" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
+            <h1
+              className="fw-bolder p-3"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="800"
+            >
+              Shop
+            </h1>
+            <p
+              className="fw-bolder p-3"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="800"
+            >
               From textiles to ceramics to woodworking, we've got everything you
               <br />
               need to start your own handcrafting journey.
@@ -217,7 +231,7 @@ const Shop = () => {
               >
                 <img
                   src="https://assets.website-files.com/64383cff24c2e21e145b299b/644f9fb7a0033d2c691addcb_image-p-500.jpg"
-                  style={{ height: "21.5rem"  }}
+                  style={{ height: "21.5rem" }}
                   className="card-img-top"
                   alt="..."
                 ></img>
