@@ -30,7 +30,7 @@ const SecondLastContainer = () => {
                         <h1 className="text-light">Meet Our Team</h1>
                         <br />
                         <div className="pe-5">
-                            <p className="  text-light fs-5  pe-5"  >Our handcrafts team is made up of a group of talented and passionate individuals who share a love for creating beautiful and unique pieces. From woodworking to jewelry making to textile arts, our team members bring a diverse range of skills and expertise to the table.</p>
+                            <p className="  text-light fs-5  " style={{paddingInlineEnd:"25rem"}} >Our handcrafts team is made up of a group of talented and passionate individuals who share a love for creating beautiful and unique pieces. From woodworking to jewelry making to textile arts, our team members bring a diverse range of skills and expertise to the table.</p>
                         </div>
                         <br />
                         <Link to={"/about"}> <button type="button" className="btn btn-outline-light rounded-pill fs-5">View  More</button></Link>

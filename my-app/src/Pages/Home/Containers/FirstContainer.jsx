@@ -9,7 +9,7 @@ const FirstContainer = () => {
     AOS.init();
   }, [])
   return (
-    < div className="first-main-container bg-dark " >
+    < div className="first-main-container  bg-dark" >
       {/* ========== sub container 1 ========= */}
       <div className="first-main-sub-container1 d-flex justify-content-between" >
 
@@ -44,7 +44,7 @@ const FirstContainer = () => {
           <img className='First-container-image3' src="https://assets.website-files.com/64383cfe24c2e2d67e5b297b/643e93b5402681aff4d00afe_banner%20bg%20img%204-p-500.jpg" alt="..." />
         </div>
 
-        <div className='First-container-image4-div' data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" >
+        <div className='First-container-image4-div p-4' data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" >
           <img className='First-container-image4' src="https://assets.website-files.com/64383cfe24c2e2d67e5b297b/643e93b60b7f8940a659d8a4_banner%20bg%20img%202.webp" alt="..." />
         </div>
 
